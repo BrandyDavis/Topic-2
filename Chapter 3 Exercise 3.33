@@ -10,7 +10,7 @@ import java.util.Scanner;
 		Double price1 = input.nextDouble();
 		Double priceperpound1 = weight1/price1;
 					
-        System.out.println("Enter weight and price for package2: ");
+                System.out.println("Enter weight and price for package2: ");
 		
 		Double weight2 = input.nextDouble();
 		Double price2 = input.nextDouble();
