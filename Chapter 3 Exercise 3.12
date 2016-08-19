@@ -1,0 +1,25 @@
+import java.util.Scanner;
+  public class Palindrome {
+   public static void main(String[] args) {
+   Scanner input = new Scanner(System.in);
+   System.out.println("enter three digits: ");
+		
+   int digits = input.nextInt();
+		
+   int lefttoright = digits / 100; 
+   int righttoleft = digits % 10;  
+			
+   if (righttoleft != lefttoright) {		
+					
+      System.out.println("is not Palindrome");
+  
+    } else {
+			
+	  System.out.println("is Palindrome");
+    } 
+			
+				
+  }
+
+}
+  
