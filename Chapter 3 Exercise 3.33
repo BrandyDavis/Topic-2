@@ -3,30 +3,28 @@ import java.util.Scanner;
 
 	public static void main(String[] args) {
 		
-		Scanner input = new Scanner(System.in);
-		System.out.println("Enter weight and price for package1: ");
+	Scanner input = new Scanner(System.in);
+	System.out.println("Enter weight and price for package1: ");
 		
-		Double weight1 = input.nextDouble();
-		Double price1 = input.nextDouble();
-		Double priceperpound1 = weight1/price1;
+	Double weight1 = input.nextDouble();
+	Double price1 = input.nextDouble();
+	Double priceperpound1 = weight1/price1;
 					
-                System.out.println("Enter weight and price for package2: ");
+        System.out.println("Enter weight and price for package2: ");
 		
-		Double weight2 = input.nextDouble();
-		Double price2 = input.nextDouble();
-		Double priceperpound2 = weight2/price2;
+	Double weight2 = input.nextDouble();
+	Double price2 = input.nextDouble();
+	Double priceperpound2 = weight2/price2;
 						
-		if (priceperpound1 > priceperpound2) {
-			System.out.println("Package 1 has a better price");
-		}
-		 if (priceperpound1 < priceperpound2) {
-			System.out.println("Package 2 has a better price");
-		} else {
-			
-			System.out.println("Two packages have the same price");
-		}
-				
-
+	if (priceperpound1 > priceperpound2) {
+	    System.out.println("Package 1 has a better price");
 	}
+	if (priceperpound1 < priceperpound2) {
+           System.out.println("Package 2 has a better price");
+	} else {
+	System.out.println("Two packages have the same price");
+	}
+				
+       }
 
 }
